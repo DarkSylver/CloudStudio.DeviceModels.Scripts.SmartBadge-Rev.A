@@ -14,10 +14,10 @@ function getConfiguration(config)
 
 function getEndpoints(deviceAddress, endpoints)
 {
-  endpoints.addEndpoint("1", "Battery", endpointType.voltageSensor);
-endpoints.addEndpoint("2", "Temperature", endpointType.temperatureSensor);
-endpoints.addEndpoint("3", "Location", endpointType.locationTracker);
-endpoints.addEndpoint("4", "Status", endpointType.iasSensor);
+    endpoints.addEndpoint("1", "Battery", endpointType.voltageSensor);
+    endpoints.addEndpoint("2", "Temperature", endpointType.temperatureSensor);
+    endpoints.addEndpoint("3", "Location", endpointType.locationTracker);
+    endpoints.addEndpoint("4", "Status", endpointType.iasSensor);
 
 }
 
